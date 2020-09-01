@@ -97,13 +97,13 @@ ${description}
     
 ### Table of Contents
     
-* [Description] (#description)
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions)
-* [License] (#licence)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests] #tests)
+* [Questions](#questions)
+* [License](#licence)
     
 ### Installation
     
@@ -117,7 +117,7 @@ ${usage}
 
 ### Contributing
 
-[${contributorsName}] (https://www.github.com/${contributorsGithub})
+[${contributorsName}](https://www.github.com/${contributorsGithub})
 
 ### Tests
 
@@ -125,7 +125,7 @@ ${testingSteps}
 
 ### Questions
 
-[${githubUserName}] (https://www.github.com/${githubUserName})
+[${githubUserName}](https://www.github.com/${githubUserName})
 
 For any additional questions  or update requests please contact me at ${email}
 
