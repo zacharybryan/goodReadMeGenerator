@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/zacharybryan/goodReadMeGenerator/issues"
   },
-  "homepage": "https://github.com/zacharybryan/goodReadMeGenerator#readme"
+  "homepage": "https://github.com/zacharybryan/goodReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
