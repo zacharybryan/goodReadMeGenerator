@@ -1,6 +1,4 @@
-# README Generator
-
-${videoLink}
+# ${projectTitle}
 
 ## Description
 
@@ -18,16 +16,17 @@ ${description}
 
 ### Installation
 
-$(installationLink)
+[Watch the demo here!](${videoLink})
 ${installation}
 
 ### Usage
 
+[Watch the demo here!](${videoLink})
 ${usage}
 
 ### Contributing
 
-[${contributorsName}] (${contributorsGithub})
+[${contributorsName}] (https://www.github.com/${contributorsGithub})
 
 ### Tests
 
