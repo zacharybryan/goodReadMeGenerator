@@ -1,11 +1,11 @@
-# ZB
+# Good README Generator
 
-[Github link](ZB)
-![screenshot of home screen](df)
+[Github link](https://github.com/zacharybryan/goodReadMeGenerator)
+![screenshot of home screen](./screenshots/home-screen.png)
 
 ## Description
 
-ZB
+This is an app that will prompt the user with questions and then generate a README.md
 
 ### Table of Contents
 
@@ -19,32 +19,32 @@ ZB
 
 ### Installation
 
-[Watch the demo here!](ZB)
-ZB
+[Watch the demo here!](www.youtube.com)
+Start by installing node
 
 ### Usage
 
-[Watch the demo here!](ZB)
-ZB
+[Watch the demo here!](www.youtube.com)
+USAGE 
 
 ### Contributing
 
-[](https://www.github.com/)
+[Plover](https://www.github.com/rebgrasshopper)
 
 ### Tests
 
-ZV
+TEST
 
 ### Questions
 
-For any additional questions or update requests please contact me at ZB
+For any additional questions or update requests please contact me at zacharybryan@icloud.com
 
 Find some of my other projects here!
-[ZB](https://www.github.com/ZB)
+[zacharybryan](https://www.github.com/zacharybryan)
 
 ### License
 
-MIT License
+GNU General Public License v3.0
 
 ---
-Copyright (c) 2020 ZB
+Copyright (c) 2020 Zachary Bryan

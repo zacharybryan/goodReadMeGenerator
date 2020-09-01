@@ -148,17 +148,16 @@ inquirer
             name: 'homeScreenLocation',
             message: 'Please enter the location of a screenshot of your home screen?'
         }
-])
-.then(function(answers) {
-    const readMeOutput = getReadMeOutput(answers);
-
-    thenableWriteFile('./README.md', readMeOutput)
-        .then(function (error) {
-            if (error) {
-                console.log('Something went wrong!', error);
-            } else {
-                console.log('README.md Complete!');
-            }
-        });
-    
-});
+    ])
+    .then(function(answers) {
+        return getReadMeOutput(answers);
+    })
+    .then(function(readMeOutput) {
+        return thenableWriteFile('./README.md', readMeOutput);
+    })
+    .then(function () {
+        console.log('README.md Complete!');
+    })
+    .catch(function (error) {
+        console.log('Something went wrong!', error);
+    });
