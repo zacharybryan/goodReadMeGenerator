@@ -53,5 +53,23 @@ inquirer
         }
 ])
 .then(function(answers) {
-    console.log(answers);
+    const name = answers.name;
+    const email = answers.email;
+    const githubUserName = answers.githubUserName;
+    const projectTitle = answers.projectTitle;
+    const description = answers.description;
+    const videoLink = answers.videoLink;
+    const installation = answers.installation;
+    const usage = answers.usage;
+    const testingSteps = answers.testingSteps;
+    const licence = answers.licence;
+    const contributorsName = answers.contributorsName;
+    const contributorsGithub = answers.contributorsGithub;
+
+    
+
+
+
+
+
 });
