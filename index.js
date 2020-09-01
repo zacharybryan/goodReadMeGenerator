@@ -1,9 +1,76 @@
 const fs = require('fs');
-const util = require('util');
+
 
 const inquirer = require('inquirer');
 
-const thenableWriteFile = util.promisify(fs.writeFile);
+function getReadMeOutput(answers) {
+    const name = answers.name;
+    const email = answers.email;
+    const githubUserName = answers.githubUserName;
+    const projectTitle = answers.projectTitle;
+    const githubLink = answers.githubLink;
+    const description = answers.description;
+    const videoLink = answers.videoLink;
+    const installation = answers.installation;
+    const usage = answers.usage;
+    const testingSteps = answers.testingSteps;
+    const licence = answers.licence;
+    const contributorsName = answers.contributorsName;
+    const contributorsGithub = answers.contributorsGithub;
+    const homeScreenLocation = answers.homeScreenLocation;
+
+    return `# ${projectTitle}
+
+[Github link](${githubLink})
+![screenshot of home screen](${homeScreenLocation})
+
+## Description
+
+${description}
+
+### Table of Contents
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#licence)
+
+### Installation
+
+[Watch the demo here!](${videoLink})
+${installation}
+
+### Usage
+
+[Watch the demo here!](${videoLink})
+${usage}
+
+### Contributing
+
+[${contributorsName}](https://www.github.com/${contributorsGithub})
+
+### Tests
+
+${testingSteps}
+
+### Questions
+
+For any additional questions or update requests please contact me at ${email}
+
+Find some of my other projects here!
+[${githubUserName}](https://www.github.com/${githubUserName})
+
+### License
+
+${licence}
+
+---
+Copyright (c) 2020 ${name}
+`;
+}
 
 inquirer
     .prompt([
@@ -82,9 +149,7 @@ inquirer
 ])
 .then(function(answers) {
     const readMeOutput = getReadMeOutput(answers);
-
-    thenableWriteFile('./README.md', readMeOutput)
-        .then(function(error) {
+    fs.writeFile('./README.md', readMeOutput, function(error) {
         if(error) {
             console.log('Something went wrong!', error);
         } else {
@@ -92,73 +157,3 @@ inquirer
         }
     })
 });
-
-function getReadMeOutput(answers) {
-    const name = answers.name;
-    const email = answers.email;
-    const githubUserName = answers.githubUserName;
-    const projectTitle = answers.projectTitle;
-    const githubLink = answers.githubLink;
-    const description = answers.description;
-    const videoLink = answers.videoLink;
-    const installation = answers.installation;
-    const usage = answers.usage;
-    const testingSteps = answers.testingSteps;
-    const licence = answers.licence;
-    const contributorsName = answers.contributorsName;
-    const contributorsGithub = answers.contributorsGithub;
-    const homeScreenLocation = answers.homeScreenLocation;
-
-    const readMeOutput = `# ${projectTitle}
-
-[Github link](${githubLink})
-![screenshot of home screen](${homeScreenLocation})
-
-## Description
-
-${description}
-
-### Table of Contents
-
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-* [License](#licence)
-
-### Installation
-
-[Watch the demo here!](${videoLink})
-${installation}
-
-### Usage
-
-[Watch the demo here!](${videoLink})
-${usage}
-
-### Contributing
-
-[${contributorsName}](https://www.github.com/${contributorsGithub})
-
-### Tests
-
-${testingSteps}
-
-### Questions
-
-For any additional questions or update requests please contact me at ${email}
-
-Find some of my other projects here!
-[${githubUserName}](https://www.github.com/${githubUserName})
-
-### License
-
-${licence}
-
----
-Copyright (c) 2020 ${name}
-`;
-    return readMeOutput;
-}
