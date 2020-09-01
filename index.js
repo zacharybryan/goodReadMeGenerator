@@ -1,5 +1,9 @@
 const fs = require('fs');
+const util = require('util');
+
 const inquirer = require('inquirer');
+
+const thenableWriteFile = util.promisify(fs.writeFile);
 
 inquirer
     .prompt([
@@ -78,7 +82,9 @@ inquirer
 ])
 .then(function(answers) {
     const readMeOutput = getReadMeOutput(answers);
-    fs.writeFile('./README.md', readMeOutput, function(error) {
+
+    thenableWriteFile('./README.md', readMeOutput)
+        .then(function(error) {
         if(error) {
             console.log('Something went wrong!', error);
         } else {

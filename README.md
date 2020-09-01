@@ -1,11 +1,11 @@
-# Good README Generator
+# ZB
 
-[Github link](https://github.com/zacharybryan/goodReadMeGenerator)
-![screenshot of home screen](./screenshots/home-screen.png)
+[Github link](ZB)
+![screenshot of home screen](df)
 
 ## Description
 
-This is a readme generator 
+ZB
 
 ### Table of Contents
 
@@ -19,32 +19,32 @@ This is a readme generator
 
 ### Installation
 
-[Watch the demo here!](www.youtube.com)
-Node first
+[Watch the demo here!](ZB)
+ZB
 
 ### Usage
 
-[Watch the demo here!](www.youtube.com)
-carefully
+[Watch the demo here!](ZB)
+ZB
 
 ### Contributing
 
-[Plover](https://www.github.com/rebgrasshopper)
+[](https://www.github.com/)
 
 ### Tests
 
-test away
+ZV
 
 ### Questions
 
-For any additional questions or update requests please contact me at zacharybryan@icloud.com
+For any additional questions or update requests please contact me at ZB
 
 Find some of my other projects here!
-[zacharybryan](https://www.github.com/zacharybryan)
+[ZB](https://www.github.com/ZB)
 
 ### License
 
-GNU General Public License v3.0
+MIT License
 
 ---
-Copyright (c) 2020 zb
+Copyright (c) 2020 ZB
