@@ -20,6 +20,10 @@ inquirer
             message: 'What is the name of your project?'
         },
         {
+            name: 'githubLink',
+            message: 'What is the Github url?'
+        },
+        {
             name: 'description',
             message: 'Describe your project'
         },
@@ -57,6 +61,7 @@ inquirer
     const email = answers.email;
     const githubUserName = answers.githubUserName;
     const projectTitle = answers.projectTitle;
+    const githubLink = answers.githubLink;
     const description = answers.description;
     const videoLink = answers.videoLink;
     const installation = answers.installation;
@@ -67,6 +72,8 @@ inquirer
     const contributorsGithub = answers.contributorsGithub;
 
     const readMeOutput = `# ${projectTitle}
+
+    [Github link](${githubLink})
 
     ## Description
     

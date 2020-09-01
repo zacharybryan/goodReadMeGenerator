@@ -1,5 +1,7 @@
 # ${projectTitle}
 
+[Github link](${githubLink})
+
 ## Description
 
 ${description}
