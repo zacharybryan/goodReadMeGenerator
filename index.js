@@ -20,8 +20,11 @@ function getReadMeOutput(answers) {
     const contributorsName = answers.contributorsName;
     const contributorsGithub = answers.contributorsGithub;
     const homeScreenLocation = answers.homeScreenLocation;
+    const badge = answers.badge;
 
     return `# ${projectTitle}
+
+${badge}
 
 [Github link](${githubLink})
 ![screenshot of home screen](${homeScreenLocation})
@@ -124,16 +127,17 @@ inquirer
                 "Apache License 2.0",
                 "GNU General Public License v3.0",
                 "MIT License",
-                "BSD 2-Clause 'Simplified' License",
-                "BSD 3-Clause 'New' or 'Revised' License",
-                "Boost Software License 1.0",
-                "Creative Commons Zero v1.0 Universal",
-                "Eclipse Public License 2.0",
-                "GNU Affero General Public License",
-                "GNU General Public License v2.0",
-                "GNU Lesser General Public License v2.1",
-                "Mozilla Public License 2.0",
-                "The Unlicense",
+                "Mozilla Public License 2.0", 
+            ]},
+        {
+            type: "list",
+            name: 'badge',
+            message: 'Please select the corresponding badge',
+            choices: [
+                "[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+                "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+                "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", 
+                "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
             ]
         },
         {

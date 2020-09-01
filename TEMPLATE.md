@@ -1,5 +1,7 @@
 # ${projectTitle}
 
+${badge}
+
 [Github link](${githubLink})
 ![screenshot of home screen](${homeScreenLocation})
 
