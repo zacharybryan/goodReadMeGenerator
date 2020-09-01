@@ -1,10 +1,11 @@
 # Good README Generator
 
 [Github link](https://github.com/zacharybryan/goodReadMeGenerator)
+![screenshot of home screen](./screenshots/home-screen.png)
 
 ## Description
 
-This is a readme generator
+This is a readme generator 
 
 ### Table of Contents
 
@@ -19,12 +20,12 @@ This is a readme generator
 ### Installation
 
 [Watch the demo here!](www.youtube.com)
-just do it
+Node first
 
 ### Usage
 
 [Watch the demo here!](www.youtube.com)
-anyone can use it
+carefully
 
 ### Contributing
 
@@ -32,7 +33,7 @@ anyone can use it
 
 ### Tests
 
-testty
+test away
 
 ### Questions
 
@@ -46,5 +47,4 @@ Find some of my other projects here!
 GNU General Public License v3.0
 
 ---
-Copyright (c) 2020 Zachary
-
+Copyright (c) 2020 zb

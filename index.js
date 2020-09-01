@@ -77,6 +77,17 @@ inquirer
         }
 ])
 .then(function(answers) {
+    const readMeOutput = getReadMeOutput(answers);
+    fs.writeFile('./README.md', readMeOutput, function(error) {
+        if(error) {
+            console.log('Something went wrong!', error);
+        } else {
+            console.log('README.md Complete!');
+        }
+    })
+});
+
+function getReadMeOutput(answers) {
     const name = answers.name;
     const email = answers.email;
     const githubUserName = answers.githubUserName;
@@ -142,12 +153,6 @@ ${licence}
 
 ---
 Copyright (c) 2020 ${name}
-`
-    fs.writeFile('./README.md', readMeOutput, function(error) {
-        if(error) {
-            console.log('Something went wrong!', error);
-        } else {
-            console.log('README.md Complete!');
-        }
-    })
-});
+`;
+    return readMeOutput;
+}
