@@ -28,7 +28,7 @@ ${usage}
 
 ### Contributing
 
-[${contributorsName}] (https://www.github.com/${contributorsGithub})
+[${contributorsName}](https://www.github.com/${contributorsGithub})
 
 ### Tests
 

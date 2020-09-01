@@ -70,6 +70,10 @@ inquirer
         {
             name: 'contributorsGithub',
             message: 'What are their Github Usernames?'
+        },        
+        {
+            name: 'homeScreenLocation',
+            message: 'Please enter the location of a screenshot of your home screen?'
         }
 ])
 .then(function(answers) {
@@ -86,10 +90,12 @@ inquirer
     const licence = answers.licence;
     const contributorsName = answers.contributorsName;
     const contributorsGithub = answers.contributorsGithub;
+    const homeScreenLocation = answers.homeScreenLocation;
 
     const readMeOutput = `# ${projectTitle}
 
 [Github link](${githubLink})
+![screenshot of home screen](${homeScreenLocation})
 
 ## Description
 
@@ -107,7 +113,7 @@ ${description}
 
 ### Installation
 
-Watch the demo here!](${videoLink})
+[Watch the demo here!](${videoLink})
 ${installation}
 
 ### Usage
@@ -117,7 +123,7 @@ ${usage}
 
 ### Contributing
 
-[${contributorsName}] (https://www.github.com/${contributorsGithub})
+[${contributorsName}](https://www.github.com/${contributorsGithub})
 
 ### Tests
 
@@ -136,10 +142,7 @@ ${licence}
 
 ---
 Copyright (c) 2020 ${name}
-
 `
-
-
     fs.writeFile('./README.md', readMeOutput, function(error) {
         if(error) {
             console.log('Something went wrong!', error);
