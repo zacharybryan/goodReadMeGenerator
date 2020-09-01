@@ -51,4 +51,7 @@ inquirer
             name: 'contributorsGithub',
             message: 'What are their Github Usernames?'
         }
-]);
+])
+.then(function(answers) {
+    console.log(answers);
+});
