@@ -36,12 +36,15 @@ ${testingSteps}
 
 ### Questions
 
-[${githubUserName}] (https://www.github.com/${githubUserName})
+For any additional questions or update requests please contact me at ${email}
 
-For any additional questions  or update requests please contact me at ${email}
+Find some of my other projects here!
+[${githubUserName}](https://www.github.com/${githubUserName})
 
 ### License
 
+${licence}
+
+---
 Copyright (c) 2020 ${name}
 
-${licence}

@@ -92,22 +92,22 @@ inquirer
 [Github link](${githubLink})
 
 ## Description
-    
+
 ${description}
-    
+
 ### Table of Contents
-    
+
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests] #tests)
+* [Tests](#tests)
 * [Questions](#questions)
 * [License](#licence)
-    
+
 ### Installation
-    
-[Watch the demo here!](${videoLink})
+
+Watch the demo here!](${videoLink})
 ${installation}
 
 ### Usage
@@ -117,7 +117,7 @@ ${usage}
 
 ### Contributing
 
-[${contributorsName}](https://www.github.com/${contributorsGithub})
+[${contributorsName}] (https://www.github.com/${contributorsGithub})
 
 ### Tests
 
@@ -125,17 +125,20 @@ ${testingSteps}
 
 ### Questions
 
-[${githubUserName}](https://www.github.com/${githubUserName})
+For any additional questions or update requests please contact me at ${email}
 
-For any additional questions  or update requests please contact me at ${email}
+Find some of my other projects here!
+[${githubUserName}](https://www.github.com/${githubUserName})
 
 ### License
 
 ${licence}
 
+---
 Copyright (c) 2020 ${name}
 
 `
+
 
     fs.writeFile('./README.md', readMeOutput, function(error) {
         if(error) {
