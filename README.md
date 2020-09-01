@@ -8,13 +8,13 @@ This creates a readme for you repositories
     
  ### Table of Contents
     
-* [Description] (#description)
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions)
-* [License] (#licence)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#licence)
 
 ### Installation
 
@@ -28,7 +28,7 @@ Whoes aloud to use it
 
 ### Contributing
     
-[plover] (https://www.github.com/rebgrasshopper)
+[plover](https://www.github.com/rebgrasshopper)
     
 ### Tests
     
@@ -36,7 +36,7 @@ Testy
     
 ### Questions
     
-[zacharybryan] (https://www.github.com/zacharybryan)
+[zacharybryan](https://www.github.com/zacharybryan)
     
 For any additional questions  or update requests please contact me at zacharybryan@icloud.com
     
