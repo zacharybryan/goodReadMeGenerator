@@ -1,6 +1,7 @@
 # ${projectTitle}
 
 [Github link](${githubLink})
+![screenshot of home screen](${homeScreenLocation})
 
 ## Description
 
