@@ -89,51 +89,53 @@ inquirer
 
     const readMeOutput = `# ${projectTitle}
 
-    [Github link](${githubLink})
+[Github link](${githubLink})
 
-    ## Description
+## Description
     
-    ${description}
+${description}
     
-    ### Table of Contents
+### Table of Contents
     
-    * [Description] (#description)
-    * [Installation] (#installation)
-    * [Usage] (#usage)
-    * [Contributing] (#contributing)
-    * [Tests] (#tests)
-    * [Questions] (#questions)
-    * [License] (#licence)
+* [Description] (#description)
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contributing] (#contributing)
+* [Tests] (#tests)
+* [Questions] (#questions)
+* [License] (#licence)
     
-    ### Installation
+### Installation
     
-    [Watch the demo here!](${videoLink})
-    ${installation}
-    
-    ### Usage
-    
-    [Watch the demo here!](${videoLink})
-    ${usage}
-    
-    ### Contributing
-    
-    [${contributorsName}] (https://www.github.com/${contributorsGithub})
-    
-    ### Tests
-    
-    ${testingSteps}
-    
-    ### Questions
-    
-    [${githubUserName}] (https://www.github.com/${githubUserName})
-    
-    For any additional questions  or update requests please contact me at ${email}
-    
-    ### License
-    
-    Copyright (c) 2020 ${name}
-    
-    ${licence}`
+[Watch the demo here!](${videoLink})
+${installation}
+
+### Usage
+
+[Watch the demo here!](${videoLink})
+${usage}
+
+### Contributing
+
+[${contributorsName}] (https://www.github.com/${contributorsGithub})
+
+### Tests
+
+${testingSteps}
+
+### Questions
+
+[${githubUserName}] (https://www.github.com/${githubUserName})
+
+For any additional questions  or update requests please contact me at ${email}
+
+### License
+
+${licence}
+
+Copyright (c) 2020 ${name}
+
+`
 
     fs.writeFile('./README.md', readMeOutput, function(error) {
         if(error) {
