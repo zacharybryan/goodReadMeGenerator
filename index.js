@@ -112,5 +112,11 @@ inquirer
     
     ${licence}`
 
-    console.log(readMeOutput);
+    fs.writeFile('./README.md', readMeOutput, function(error) {
+        if(error) {
+            console.log('Something went wrong!', error);
+        } else {
+            console.log('README.md Complete!');
+        }
+    })
 });
