@@ -1,13 +1,13 @@
-# adfka
+# Good README Generator
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Github link](df)
-![screenshot of home screen]()
+[Github link](wwww.github.com/zacharybryan/goodReadMeGenerator)
+![screenshot of home screen](./screenshots/home-screen.png)
 
 ## Description
 
-adf
+This is a app to generate a readme
 
 ### Table of Contents
 
@@ -21,32 +21,36 @@ adf
 
 ### Installation
 
-[Watch the demo here!](adf)
-adf
+[Watch the demo here!](wwww.youtube.com)
+Install Node
 
 ### Usage
 
-[Watch the demo here!](adf)
-df
+[Watch the demo here!](wwww.youtube.com)
+Start the best foot forward 
 
 ### Contributing
 
-[](https://www.github.com/)
+[Plover](https://www.github.com/rebgrasshopper)
 
 ### Tests
 
-df
+Steppy
 
 ### Questions
 
-For any additional questions or update requests please contact me at zach
+For any additional questions or update requests please contact me at zacharybryan@icloud.com
 
 Find some of my other projects here!
-[dfak](https://www.github.com/dfak)
+[zacharybryan](https://www.github.com/zacharybryan)
 
 ### License
 
-GNU General Public License v3.0
+*MIT License*
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ---
-Copyright (c) 2020 Zach 
+Copyright (c) 2020 Zachary Bryan
