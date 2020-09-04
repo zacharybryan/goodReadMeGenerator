@@ -7,7 +7,7 @@
 
 ## Description
 
-This is a app to generate a readme
+This project is a README generator designed to run in a command terminal compatible with node. It offers a variety of standard readme sections, the option to input a link to the deployed project and input file paths to add a screenshot. It's created in JavaScript, with Inquirer dependancy.
 
 ### Table of Contents
 
@@ -22,7 +22,11 @@ This is a app to generate a readme
 ### Installation
 
 [Watch the demo here!](wwww.youtube.com)
-Install Node
+
+* Create a clone of the repository
+![screenshot of ssh clone](./screenshots/ssh-clone.png)
+* Run npm i to install  dependencies (Inquirer)
+* Run node index.js to start the generator.
 
 ### Usage
 
