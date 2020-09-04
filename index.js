@@ -157,7 +157,7 @@ inquirer
         return getReadMeOutput(answers);
     })
     .then(function(readMeOutput) {
-        return thenableWriteFile('./README.md', readMeOutput);
+        return thenableWriteFile('./READMEcomputed.md', readMeOutput);
     })
     .then(function () {
         console.log('README.md Complete!');
