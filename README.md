@@ -31,7 +31,17 @@ Start the best foot forward
 
 ### Contributing
 
-[Plover](https://www.github.com/rebgrasshopper)
+- [Plover Brown](https://github.com/rebgrasshopper)
+- [Kira Bismuth Lowrey](https://github.com/KILowrey)
+- [Nancy Lambert-Brown](https://github.com/n-lambert)
+- [Mando Estrada](https://github.com/Mando619)
+- [Perry Theobald](https://github.com/perrytjr)
+- [Jeneth Diestra](https://github.com/jen6one9)
+- [Matthew Rogers](https://github.com/Rogers-Development-Services)
+- [Jefrrey Choi](https://github.com/jepoy92)
+- [Clyde Baron Rapinan](https://github.com/clydebaron2000)
+- [Johnny Lieu](https://github.com/johnnylieu)
+- [Robert Graham](https://github.com/Robmgraham)
 
 ### Tests
 
