@@ -26,7 +26,7 @@ This project is a README generator designed to run in a command terminal compati
 ---
 ### Installation
 
-[Watch the demo here!](wwww.youtube.com)
+[Watch the demo here!](./assets/demo.gif)
 
 * Create a clone of the repository
 ![screenshot of ssh clone](./screenshots/ssh-clone.png)
