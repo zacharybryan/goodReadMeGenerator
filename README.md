@@ -26,7 +26,7 @@ This project is a README generator designed to run in a command terminal compati
 ---
 ### Installation
 
-[Watch the demo here!](./assets/demo.gif)
+[Watch the demo here!](https://youtu.be/4mSOllGB3iQ)
 
 * Create a clone of the repository
 ![screenshot of ssh clone](./screenshots/ssh-clone.png)
@@ -36,7 +36,7 @@ This project is a README generator designed to run in a command terminal compati
 ---
 ### Usage
 
-[Watch the demo here!](wwww.youtube.com)
+[Watch the demo here!](https://youtu.be/4mSOllGB3iQ)
 1. User will be prompted a series of question about the project and themselves.
 1. The README.md file will be created and named READMEcomputed.md
 1. Add a licence file to correspond with the users choice.
